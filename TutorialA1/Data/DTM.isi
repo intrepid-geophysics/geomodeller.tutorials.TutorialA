@@ -1,0 +1,8 @@
+MetaData Begin
+	Name	= DTM.semi
+	Version	= "Intrepid 3D GeoModeller v2.1.0 default for Windows (x86) by PELAGIAN optimised build a00532ee0d50 "
+	DTM.semi Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+	DTM.semi End
+MetaData End

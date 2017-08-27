@@ -1,0 +1,7 @@
+HoleID,FROM,TO,LITHOLOGY
+H1,0,1500,Granite
+H1,1500,2700,MiddleCover
+H2,0,2480,Granite
+H2,2480,4000,LowerCover
+H3,0,1500,MiddleCover
+H3,1500,2000,LowerCover

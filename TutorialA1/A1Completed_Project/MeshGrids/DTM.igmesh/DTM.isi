@@ -1,0 +1,14 @@
+MetaData Begin
+	Name	= DTM.ers
+	Version	= "Intrepid GeoModeller v6.0.0 GMBTA-2388_OCC654 for Windows (x64) by PELAGIAN optimised build ca92e9844c63+ "
+	DTM Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= quad
+		Alias	= DTM
+		Bands	= 1
+		Projection	= "LAMBERTIIET"
+		Datum	= "NTF"
+	DTM End
+MetaData End

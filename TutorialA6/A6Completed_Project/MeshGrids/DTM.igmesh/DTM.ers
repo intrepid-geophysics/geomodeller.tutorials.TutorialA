@@ -1,0 +1,34 @@
+DatasetHeader Begin
+	LastUpdated	= Wed Sep 16 03:59:56 GMT 2015
+	Version	= "5.0"
+	DataSetType	= ERStorage
+	DataType	= Raster
+	HeaderOffset	= 0
+	CoordinateSpace Begin
+		Projection	= "LAMBERTIIET"
+		CoordinateType	= EN
+		Datum	= "NTF"
+		Rotation	= 0:0:0 
+	CoordinateSpace End
+	ByteOrder	= LSBFirst
+	RasterInfo Begin
+		CellType	= IEEE8ByteReal
+		NrOfLines	= 5
+		NrOfCellsPerLine	= 5
+		NrOfBands	= 1
+		NullCellValue	=          -99999
+		CellInfo Begin
+			Xdimension	=            2500
+			Ydimension	=            2500
+		CellInfo End
+		RegistrationCellX	= 0
+		RegistrationCellY	= 0
+		RegistrationCoord Begin
+			Eastings	=           98750
+			Northings	=         2011250
+		RegistrationCoord End
+		BandId Begin
+			Units	= "none"
+		BandId End
+	RasterInfo End
+DatasetHeader End

@@ -1,0 +1,62 @@
+MetaData Begin
+	Name	= DTM.igmesh
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 0ded2729519c+ "
+	quad_DTM Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= quad
+		Alias	= DTM
+	quad_DTM End
+	MeshGrid Begin
+		Type	= regular-grid
+		Dimensions	= 2
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= .ers
+		Format	= iogrid
+		Name	= DTM
+		Projection	= "LAMBERTIIET"
+		Datum	= "NTF"
+		GridExtents = {
+			              5
+			              5
+			              1
+}
+		Origin = {
+			  100000.000000
+			 2000000.000000
+			              0
+}
+		Spacing = {
+			    2500.000000
+			    2500.000000
+			              0
+}
+		BasisX = {
+			       1.000000
+			              0
+			              0
+}
+		BasisY = {
+			              0
+			       1.000000
+			              0
+}
+		BasisZ = {
+			              0
+			              0
+			       1.000000
+}
+		FieldData Begin
+			DTM Begin
+				Resource	= DTM.igmesh/DTM.ers
+				Name	= DTM
+				Primitive	= quad
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= DTM
+				NumElem	= 25
+			DTM End
+		FieldData End
+	MeshGrid End
+MetaData End
