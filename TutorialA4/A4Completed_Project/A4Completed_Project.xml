@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?driver version="2.0.1"?>
 <!--Composed by Intrepid GeoModeller 2014 v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 0ded2729519c+, Sep 11 2015-->
-<geo:Project3DEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geo="http://www.geomodeller.com/geo" xmlns:gml="http://www.opengis.net/gml" author="BRGM/Intrepid" CoordSystem="NTF / LambertIIet" date="18/ 6/2007 12:57: 2" deflection2d="0.001" deflection3d="0.001" description="Geology with a fault" discretisation="10.0" precision="1.0" projectName="TutorialA3" unit="m" version="1.0">
+<geo:Project3DEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geo="http://www.geomodeller.com/geo" xmlns:gml="http://www.opengis.net/gml" author="BRGM/Intrepid" CoordSystem="NTF / LambertIIet" date="18/ 6/2007 12:57: 2" deflection2d="0.001" deflection3d="0.001" description="Geology with a fault" discretisation="10.0" precision="1.0" projectName="A4Completed_Project" unit="m" version="1.0">
   <geo:Extent3DOfProject>
     <geo:ExtentBox3D>
       <geo:Extent3D>
