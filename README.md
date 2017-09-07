@@ -56,3 +56,7 @@ You will learn how to:
 * Import Numeric data to existing Drillholes
 * How to manipulate the display of Drillhole information
 * How to replace and edit Drillhole data
+
+#### Disclaimer
+
+It is Intrepid Geophysics’ understanding that this tutorial document and associated data are provided for purpose of training in the use and application of 3D GeoModeller, and the material and data cannot be used or relied upon for any other purpose. Intrepid Geophysics is not liable for any inaccuracies (including any incompleteness) in this material and data.
