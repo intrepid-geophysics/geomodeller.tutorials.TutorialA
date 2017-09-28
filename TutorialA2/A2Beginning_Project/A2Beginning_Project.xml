@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?driver version="2.0.0"?>
-<!--Composed by Intrepid GeoModeller 2014 v3.0.0 GMBTA-2388_OCC654 for Windows (x64) by PELAGIAN optimised build ca92e9844c63+, Feb 11 2014-->
-<geo:Project3DEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geo="http://www.geomodeller.com/geo" xmlns:gml="http://www.opengis.net/gml" author="" CoordSystem="NTF / LambertIIet" date="18/ 2/2014  9:51:39" deflection2d="0.001" deflection3d="1.0E-4" description="" discretisation="1000000.0" precision="1.0" projectName="A2Beginning_Project" unit="M" version="2.0">
+<?driver version="2.0.1"?>
+<!--Composed by Intrepid GeoModeller 4.0 v4.0.0 product for Windows (x64) by JAN13 debug build 325e97d75d6d+, Sep 27 2017-->
+<geo:Project3DEdit xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geo="http://www.geomodeller.com/geo" xmlns:gml="http://www.opengis.net/gml" author="" CoordSystem="NTF / LambertIIet" date="18/ 2/2014  9:51:39" deflection2d="0.001" deflection3d="1.0E-4" description="" discretisation="1000000.0" precision="1.0" projectName="A2Beginning_Project" unit="M" version="2.0">
   <geo:Extent3DOfProject>
     <geo:ExtentBox3D>
       <geo:Extent3D>
@@ -153,15 +153,9 @@
               <gml:coordinates cs="," decimal="." ts=" ">4331.079,1420.322 6268.754,364.981 7860.417,-309.745 10335.735,-1302.610 12296.696,-2061.691 13772.688,-2546.660 </gml:coordinates>
             </gml:LineString>
           </geo:Interface>
-          <geo:Interface>
-            <geo:Data Name="UpperCover"/>
-            <gml:LineString>
-              <gml:coordinates cs="," decimal="." ts=" ">4331.079,1420.322 6268.754,364.981 7860.417,-309.745 10335.735,-1302.610 12296.696,-2061.691 13772.688,-2546.660 </gml:coordinates>
-            </gml:LineString>
-          </geo:Interface>
         </geo:Interfaces>
       </geo:Structural2DData>
-      <geo:Shape3DOfSection FileName="Section1.sec"/>
+      <geo:Shape3DOfSection FileName="Section1.sec"></geo:Shape3DOfSection>
       <geo:Intersections>
         <geo:Curve Degree="1" Name="SurfaceTopography">
           <geo:Pole-Weight U="14113.85135" V="402.59619" Weight="1"/>
@@ -1224,7 +1218,7 @@
           </geo:Foliation>
         </geo:Foliations>
       </geo:Structural2DData>
-      <geo:Shape3DOfSection FileName="SurfaceTopography.sec"/>
+      <geo:Shape3DOfSection FileName="SurfaceTopography.sec"></geo:Shape3DOfSection>
       <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0" TEXT_ASPECT_RATIO="1" TEXT_SIZE="1.0">
         <geo:ColorShading Blue="0" Green="0" Red="255"/>
         <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>

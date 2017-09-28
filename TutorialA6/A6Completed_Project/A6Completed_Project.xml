@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?driver version="2.0.1"?>
-<!--Composed by Intrepid GeoModeller 2014 v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 0ded2729519c+, Sep 11 2015-->
-<geo:Project3DEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geo="http://www.geomodeller.com/geo" xmlns:gml="http://www.opengis.net/gml" author="BRGM/Intrepid" CoordSystem="NTF / LambertIIet" date="18/ 6/2007 12:57: 2" deflection2d="0.001" deflection3d="0.001" description="Geology with a fault" discretisation="10.0" precision="1.0" projectName="A6Completed_Project" unit="m" version="1.0">
+<!--Composed by Intrepid GeoModeller 4.0 v4.0.0 product for Windows (x64) by JAN13 debug build 325e97d75d6d+, Sep 27 2017-->
+<geo:Project3DEdit xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geo="http://www.geomodeller.com/geo" xmlns:gml="http://www.opengis.net/gml" author="BRGM/Intrepid" CoordSystem="NTF / LambertIIet" date="18/ 6/2007 12:57: 2" deflection2d="0.001" deflection3d="0.001" description="Geology with a fault" discretisation="10.0" precision="1.0" projectName="A6Completed_Project" unit="m" version="1.0">
   <geo:Extent3DOfProject>
     <geo:ExtentBox3D>
       <geo:Extent3D>
@@ -603,7 +603,7 @@
           </geo:Interface>
         </geo:Interfaces>
       </geo:Structural2DData>
-      <geo:Shape3DOfSection FileName="Section1.sec"/>
+      <geo:Shape3DOfSection FileName="Section1.sec"></geo:Shape3DOfSection>
       <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
         <geo:ColorShading Blue="126" Green="126" Red="126"/>
         <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
@@ -1214,7 +1214,7 @@
           </geo:Foliation>
         </geo:Foliations>
       </geo:Structural2DData>
-      <geo:Shape3DOfSection FileName="Section2.sec"/>
+      <geo:Shape3DOfSection FileName="Section2.sec"></geo:Shape3DOfSection>
       <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
         <geo:ColorShading Blue="86" Green="138" Red="45"/>
         <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
@@ -1617,12 +1617,6 @@
             </gml:LineString>
           </geo:Interface>
           <geo:Interface>
-            <geo:Data Name="UpperCover"/>
-            <gml:LineString>
-              <gml:coordinates cs="," decimal="." ts=" ">102176,2002973 102879,2007144 105082,2008433 </gml:coordinates>
-            </gml:LineString>
-          </geo:Interface>
-          <geo:Interface>
             <geo:Data Name="Dyke"/>
             <gml:LineString>
               <gml:coordinates cs="," decimal="." ts=" ">100868.117,2003765.625 101398.961,2003346.5 101957.742,2002955.375 </gml:coordinates>
@@ -1661,70 +1655,6 @@
             <geo:FoliationObservation Azimuth="130.0" Dip="80.0" NormalPolarity="true">
               <gml:Point>
                 <gml:coordinates cs="," decimal="." ts=" ">107500.0,2005000.0</gml:coordinates>
-              </gml:Point>
-            </geo:FoliationObservation>
-          </geo:Foliation>
-          <geo:Foliation ObservationID="">
-            <geo:Data Name="Granite"/>
-            <geo:FoliationObservation Azimuth="158.153" Dip="76.1617" NormalPolarity="true">
-              <gml:Point>
-                <gml:coordinates cs="," decimal="." ts=" ">103969.3046875,2009262.75</gml:coordinates>
-              </gml:Point>
-            </geo:FoliationObservation>
-          </geo:Foliation>
-          <geo:Foliation ObservationID="">
-            <geo:Data Name="Granite"/>
-            <geo:FoliationObservation Azimuth="176.938" Dip="81.6385" NormalPolarity="true">
-              <gml:Point>
-                <gml:coordinates cs="," decimal="." ts=" ">106188.4453125,2009644.5</gml:coordinates>
-              </gml:Point>
-            </geo:FoliationObservation>
-          </geo:Foliation>
-          <geo:Foliation ObservationID="">
-            <geo:Data Name="Granite"/>
-            <geo:FoliationObservation Azimuth="260.606" Dip="85.6781" NormalPolarity="true">
-              <gml:Point>
-                <gml:coordinates cs="," decimal="." ts=" ">108622.34375,2008857.125</gml:coordinates>
-              </gml:Point>
-            </geo:FoliationObservation>
-          </geo:Foliation>
-          <geo:Foliation ObservationID="">
-            <geo:Data Name="Granite"/>
-            <geo:FoliationObservation Azimuth="327.213" Dip="75.3534" NormalPolarity="true">
-              <gml:Point>
-                <gml:coordinates cs="," decimal="." ts=" ">107190.640625,2007258.375</gml:coordinates>
-              </gml:Point>
-            </geo:FoliationObservation>
-          </geo:Foliation>
-          <geo:Foliation ObservationID="">
-            <geo:Data Name="Granite"/>
-            <geo:FoliationObservation Azimuth="306.588" Dip="77.475" NormalPolarity="true">
-              <gml:Point>
-                <gml:coordinates cs="," decimal="." ts=" ">105785.28125,2005505.0</gml:coordinates>
-              </gml:Point>
-            </geo:FoliationObservation>
-          </geo:Foliation>
-          <geo:Foliation ObservationID="">
-            <geo:Data Name="Granite"/>
-            <geo:FoliationObservation Azimuth="45.7786" Dip="75.9308" NormalPolarity="true">
-              <gml:Point>
-                <gml:coordinates cs="," decimal="." ts=" ">103662.265625,2005832.875</gml:coordinates>
-              </gml:Point>
-            </geo:FoliationObservation>
-          </geo:Foliation>
-          <geo:Foliation ObservationID="">
-            <geo:Data Name="UpperCover"/>
-            <geo:FoliationObservation Azimuth="151.0" Dip="25.0" NormalPolarity="true">
-              <gml:Point>
-                <gml:coordinates cs="," decimal="." ts=" ">103744.0,2008364.0</gml:coordinates>
-              </gml:Point>
-            </geo:FoliationObservation>
-          </geo:Foliation>
-          <geo:Foliation ObservationID="">
-            <geo:Data Name="UpperCover"/>
-            <geo:FoliationObservation Azimuth="135.0" Dip="28.0" NormalPolarity="true">
-              <gml:Point>
-                <gml:coordinates cs="," decimal="." ts=" ">102879.0,2007144.0</gml:coordinates>
               </gml:Point>
             </geo:FoliationObservation>
           </geo:Foliation>
@@ -1794,7 +1724,7 @@
           </geo:Foliation>
         </geo:Foliations>
       </geo:Structural2DData>
-      <geo:Shape3DOfSection FileName="Topography.sec"/>
+      <geo:Shape3DOfSection FileName="Topography.sec"></geo:Shape3DOfSection>
       <geo:ImageUnderLays>
         <geo:ImageUnderLay Filename="FieldGeologyWithCOVER.png">
           <geo:ExtentUV Umax="110000.0" Umin="100000.0" Vmax="2010000.0" Vmin="2000000.0"/>
